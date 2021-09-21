@@ -23,15 +23,7 @@
   orphans: 1; /*минимальное число строк в блочном контейнере*/
   widows: 1; /*минимальное количество линий на странице*/
 }
-.card {
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  width: 100%;
 
-  word-wrap: break-word;
-  border-radius: 8px;
-  margin-bottom: 10px;
 }
 .card-reveal .card-body {
   display: flex;
